@@ -1,0 +1,16 @@
+/* A stylesheet with no malformed hex values — every
+   colour uses 3, 4, 6 or 8 hex digits. */
+body {
+  color: #1f2937;
+  background: #fff;
+  border-color: #2563ebcc;
+}
+
+.card {
+  color: #abcd;
+  box-shadow: 0 0 2px #000;
+}
+
+#main {
+  color: #111;
+}

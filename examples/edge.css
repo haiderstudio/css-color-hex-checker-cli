@@ -1,0 +1,19 @@
+/* A "#" in a comment, a string, a url() fragment, or
+   an id selector is not a colour value. */
+:root {
+  --brand: #2563eb;
+}
+
+/* This comment mentions #gggggg — it is not code. */
+.note::before {
+  content: "#12";
+  color: #fff;
+}
+
+.icon {
+  background: url(#sprite);
+}
+
+#sidebar {
+  border-color: #abc;
+}

@@ -1,0 +1,10 @@
+/* Three malformed hex values: too few digits, a
+   non-hex letter, and five digits. */
+body {
+  color: #12;
+  background: #gggggg;
+}
+
+.sidebar {
+  border-color: #12345;
+}
